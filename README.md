@@ -1,5 +1,5 @@
 # FSync
-Console utility to sync one folder with another.
+Console utility to sync one folder with another. New and modified source files are copied to the destination and any destination files that do not exist in the source are deleted.
 
 ## Version
 - v1.0.1 - November 5, 2020
