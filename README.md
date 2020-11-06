@@ -19,7 +19,7 @@ Console utility to sync one folder with another.
 
 ### Usage
 
-    fsync [options] source-filpath [destination-filepath]
+    fsync [options] source-filepath [destination-filepath]
 
 ### Options
 
