@@ -1,0 +1,11 @@
+class FSyncPackage : Package
+  # Base class Package is defined here:
+  # https://github.com/AbePralle/Morlock/blob/main/Source/Package.rogue
+  PROPERTIES
+    name = "abepralle/fsync"
+
+  METHODS
+    method init
+      dependency "abepralle/rogue@1.12.2"
+      scan_repo_releases
+endClass
